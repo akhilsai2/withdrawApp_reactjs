@@ -1,0 +1,107 @@
+.bgContainer {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  height: 470px;
+  width: 420px;
+  background-color: #150b3e;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 25px;
+}
+.profileContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 20px;
+}
+.picture {
+  height: 70px;
+  width: 70px;
+  background-color: #c7d2fe;
+  border-radius: 40px;
+  border: 0px solid white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+.profilePic {
+  color: #7c3aed;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+.Name {
+  color: #d4d2db;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+.balanceContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  width: 350px;
+}
+.balanceName {
+  color: #585076;
+  font-size: 20px;
+  font-family: 'Roboto';
+  margin-top: 30px;
+}
+
+.Amount {
+  color: white;
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 500;
+}
+.Currency {
+  color: #585076;
+  font-size: 13px;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+.withdraw {
+  color: white;
+  font-size: 23px;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+.denomination {
+  color: #585076;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.rupeeContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 400px;
+  list-style-type: none;
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    width: 350px;
+  }
+  .balanceContainer {
+    width: 280px;
+  }
+  .rupeeContainer {
+    width: 300px;
+  }
+}
